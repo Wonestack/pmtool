@@ -1,24 +1,13 @@
-# README
+# PMTOOL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a minimal project management tool with the ability to create teams and tasks.
+Tasks are on team bases, so it is not assigned to individuals rather to a group (TEAM).
+Logs team members activities.
 
-Things you may want to cover:
+# CONTRIBUTION
 
-* Ruby version
+Feel free to fork this repo and turn it into something awesome!
 
-* System dependencies
+# COPYRIGHT
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Made out of curiousity by Wonestack Dev Team 

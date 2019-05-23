@@ -191,6 +191,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  actionpack (= 5.2.3)
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
