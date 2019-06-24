@@ -13,9 +13,9 @@
 		<%= render 'form', team: @team %>
 	</div>
 
-	<div class="column is-5" :class="{ formstatic: scrollPosition < 100, formfixed: scrollPosition > 100 }">
+	<div class="column is-5" :class="{ datastatic: scrollPosition < 100, datafixed: scrollPosition > 100 }">
 		<h2 class="subtitle is-3">{{ team.name }}</h2>
-		<table class="table is-fullwidth">
+		<table class="table is-fullwidth" v-if="team.users_attributes.length">
 			<thead>
 				<th>Name</th>
 				<th>Email</th>

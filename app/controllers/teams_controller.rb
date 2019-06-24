@@ -30,7 +30,7 @@ class TeamsController < ApplicationController
   def create
     @team = current_user.teams.build(team_params)
     # Append current user to array of team users
-    @team.user << current_user
+    @team.users << current_user
 
     respond_to do |format|
       if @team.save
