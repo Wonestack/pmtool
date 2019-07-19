@@ -39,6 +39,7 @@ gem 'public_activity', '~> 1.5'
 gem 'pg'
 gem "figaro"
 gem 'actionpack', '5.2.3'
+gem 'font-awesome-sass', '~> 4.4.0'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

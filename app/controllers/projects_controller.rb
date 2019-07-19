@@ -18,7 +18,7 @@ class ProjectsController < ApplicationController
     @project = current_user.projects.build
     # In other to find which team that owns project, 
     # I need acces to current_user team_id 
-    @team = Team.where('id = ?', current_user.team_id)
+    @teams = Team.where('id = ?', current_user.team_id)
   end
 
   # GET /projects/1/edit
