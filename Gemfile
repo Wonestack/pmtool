@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # project specific
 gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form', '~> 4.1.0'
-gem 'devise', '~> 4.4'
+gem 'devise', '~> 4.7'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem "wysiwyg-rails"
