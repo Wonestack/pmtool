@@ -38,7 +38,7 @@ gem "wysiwyg-rails"
 gem 'public_activity', '~> 1.5'
 gem 'pg'
 gem "figaro"
-gem 'actionpack', '5.2.3'
+gem 'actionpack', '5.2.7.1'
 gem 'font-awesome-sass', '~> 4.4.0'
 
 # Use ActiveStorage variant
